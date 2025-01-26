@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locadora de Vídeos - Página Principal</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="paginaPrincipal.html"><img class="logo" src="img/NOMESEMBG.png" alt=""></a>
+      <nav>
+          <a href="filmes.html">Filmes</a>
+          <a href="trailers.html">Trailers</a>
+          <a href="trilhaSonora.html">Trilha Sonora</a>
+          <a href="contato.html">Contato</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="index.html">Login</a>
+        </nav>
+  </header>
+    <main>
+      <div class="contato">
+        <section>
+          <h1>Contato</h1>
+          <form enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required />
+            <br />
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Locadora de Vídeos. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
